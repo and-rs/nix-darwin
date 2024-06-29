@@ -3,7 +3,7 @@
     pnpm
     yarn
     prettierd
-    pnpm-shell-completion
+    #pnpm-shell-completion
     nodePackages_latest.nodejs
     nodePackages_latest.eslint
     nodePackages_latest.prettier

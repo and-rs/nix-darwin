@@ -1,7 +1,8 @@
 { pkgs, ... }: {
   environment.systemPackages = with pkgs; [
     (nerdfonts.override {
-      fonts = [ "JetBrainsMono" "GeistMono" "Lilex" "ZedMono" "Recursive" ];
+      fonts =
+        [ "JetBrainsMono" "GeistMono" "CommitMono" "ZedMono" "Recursive" ];
     })
     imagemagick
     fastfetch

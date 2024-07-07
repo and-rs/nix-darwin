@@ -10,12 +10,12 @@
   outputs = inputs@{ self, nix-darwin, nixpkgs }:
     let
       configuration = { pkgs, ... }: {
+        environment.darwinConfig = "$HOME/box/nixdarwin/flake.nix";
         services.nix-daemon.enable = true;
+        programs.zsh.enable = true;
 
         nix.package = pkgs.nix;
         nix.settings.experimental-features = "nix-command flakes";
-
-        programs.zsh.enable = true;
 
         system.configurationRevision = self.rev or self.dirtyRev or null;
         system.stateVersion = 4;

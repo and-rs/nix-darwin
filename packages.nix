@@ -1,13 +1,20 @@
 { pkgs, ... }: {
   environment.systemPackages = with pkgs; [
     (nerdfonts.override {
-      fonts =
-        [ "JetBrainsMono" "GeistMono" "CommitMono" "ZedMono" "Recursive" ];
+      fonts = [
+        "JetBrainsMono"
+        "GeistMono"
+        "ZedMono"
+        "Recursive"
+        "CommitMono"
+        "NerdFontsSymbolsOnly"
+      ];
     })
     imagemagick
+    alacritty
     fastfetch
-    cbonsai
     ripgrep
+    cbonsai
     cmatrix
     neovim
     helix
@@ -15,6 +22,7 @@
     delta
     p7zip
     tokei
+    kitty
     btop
     stow
     tmux

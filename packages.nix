@@ -1,15 +1,20 @@
 { pkgs, ... }: {
+  fonts = {
+    packages = [
+      (pkgs.nerdfonts.override {
+        fonts = [
+          "JetBrainsMono"
+          "GeistMono"
+          "ZedMono"
+          "Recursive"
+          "CommitMono"
+          "NerdFontsSymbolsOnly"
+        ];
+      })
+    ];
+  };
+
   environment.systemPackages = with pkgs; [
-    (nerdfonts.override {
-      fonts = [
-        "JetBrainsMono"
-        "GeistMono"
-        "ZedMono"
-        "Recursive"
-        "CommitMono"
-        "NerdFontsSymbolsOnly"
-      ];
-    })
     imagemagick
     alacritty
     fastfetch

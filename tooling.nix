@@ -21,11 +21,13 @@
     stylua
     lua
 
-    python3
-    pyright
+    python312Packages.pip
+    basedpyright
+    python3Full
+    virtualenv
+    ruff-lsp
     black
-    mypy
-    ruff
+    pdm
 
     go
     gopls

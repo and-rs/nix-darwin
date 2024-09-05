@@ -22,10 +22,13 @@
     lua
 
     python312Packages.pip
+    python312Packages.virtualenv
     basedpyright
     python3Full
     virtualenv
     ruff-lsp
+    tesseract
+    poetry
     black
     pdm
 

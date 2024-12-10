@@ -1,6 +1,7 @@
 { pkgs, ... }: {
   environment.systemPackages = with pkgs; [
     bun
+    deno
     yarn
     corepack_latest
     pnpm-shell-completion

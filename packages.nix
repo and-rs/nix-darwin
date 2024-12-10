@@ -1,16 +1,12 @@
 { pkgs, ... }: {
   fonts = {
-    packages = [
-      (pkgs.nerdfonts.override {
-        fonts = [
-          "JetBrainsMono"
-          "GeistMono"
-          "ZedMono"
-          "Recursive"
-          "CommitMono"
-          "NerdFontsSymbolsOnly"
-        ];
-      })
+    packages = with pkgs; [
+      nerd-fonts.jetbrains-mono
+      nerd-fonts.geist-mono
+      nerd-fonts.zed-mono
+      nerd-fonts.recursive-mono
+      nerd-fonts.commit-mono
+      nerd-fonts.symbols-only
     ];
   };
 

@@ -5,7 +5,6 @@
       nerd-fonts.geist-mono
       nerd-fonts.zed-mono
       nerd-fonts.recursive-mono
-      nerd-fonts.commit-mono
       nerd-fonts.symbols-only
     ];
   };
@@ -18,6 +17,7 @@
     cbonsai
     cmatrix
     neovim
+    cowsay
     helix
     unzip
     delta

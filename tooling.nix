@@ -47,6 +47,8 @@
     zig
     zls
 
-    neovide
+    dmg2img
+    hashcat
+    john
   ];
 }

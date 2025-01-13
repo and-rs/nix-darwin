@@ -46,9 +46,5 @@
     zig-shell-completions
     zig
     zls
-
-    dmg2img
-    hashcat
-    john
   ];
 }

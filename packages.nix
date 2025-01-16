@@ -18,7 +18,6 @@
     cmatrix
     neovim
     cowsay
-    helix
     unzip
     delta
     p7zip

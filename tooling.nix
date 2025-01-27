@@ -27,10 +27,10 @@
     basedpyright
     python3Full
     virtualenv
-    ruff-lsp
     tesseract
     poetry
     black
+    ruff
     pdm
 
     go

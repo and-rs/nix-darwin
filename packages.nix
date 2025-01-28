@@ -18,11 +18,11 @@
     cmatrix
     neovim
     cowsay
+    zellij
     unzip
     delta
     p7zip
     tokei
-    kitty
     btop
     stow
     tmux

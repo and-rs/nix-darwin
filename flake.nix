@@ -25,11 +25,11 @@
     in {
       # Build darwin flake using:
       # $ darwin-rebuild build --flake .#dagger
-      darwinConfigurations."dagger" = nix-darwin.lib.darwinSystem {
+      darwinConfigurations."M1" = nix-darwin.lib.darwinSystem {
         modules = [ configuration ./tooling.nix ./packages.nix ];
       };
 
       # Expose the package set, including overlays, for convenience.
-      darwinPackages = self.darwinConfigurations."dagger".pkgs;
+      darwinPackages = self.darwinConfigurations."M1".pkgs;
     };
 }

@@ -11,8 +11,8 @@
 
   environment.systemPackages = with pkgs; [
     imagemagick
-    alacritty
     fastfetch
+    neovide
     ripgrep
     cbonsai
     cmatrix

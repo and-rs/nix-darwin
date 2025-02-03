@@ -3,6 +3,7 @@
     bun
     deno
     yarn
+    biome
     corepack_latest
     pnpm-shell-completion
     nodePackages_latest.nodejs

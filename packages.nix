@@ -23,7 +23,6 @@
     delta
     p7zip
     tokei
-    yazi
     btop
     stow
     tmux

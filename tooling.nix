@@ -4,6 +4,7 @@
     deno
     yarn
     biome
+    rustywind
     corepack_latest
     pnpm-shell-completion
     nodePackages_latest.nodejs

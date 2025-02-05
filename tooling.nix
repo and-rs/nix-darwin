@@ -9,9 +9,9 @@
     pnpm-shell-completion
     nodePackages_latest.nodejs
 
+    emmet-ls
     prettierd
     typescript
-    emmet-language-server
     nodePackages_latest.eslint
     nodePackages_latest.prettier
     vscode-langservers-extracted

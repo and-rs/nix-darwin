@@ -12,32 +12,30 @@
     prettierd
     typescript
     emmet-language-server
+    typescript-language-server
     nodePackages_latest.eslint
     nodePackages_latest.prettier
     vscode-langservers-extracted
     tailwindcss-language-server
-    nodePackages_latest.typescript-language-server
-    nodePackages_latest.vscode-json-languageserver
 
     sumneko-lua-language-server
     luajitPackages.luarocks
     stylua
     lua
 
-    python312Packages.pip
-    python312Packages.virtualenv
-    basedpyright
-    python3Full
+    # basedpyright
     virtualenv
-    tesseract
+    python314
     poetry
     black
     ruff
     pdm
+    uv
 
     go
     gopls
 
+    bash-language-server
     shellcheck
     beautysh
 

@@ -17,8 +17,8 @@
     vscode-langservers-extracted
     tailwindcss-language-server
 
-    sumneko-lua-language-server
     luajitPackages.luarocks
+    lua-language-server
     stylua
     lua
 

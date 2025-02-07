@@ -11,7 +11,6 @@
 
     prettierd
     typescript
-    emmet-language-server
     typescript-language-server
     nodePackages_latest.eslint
     nodePackages_latest.prettier

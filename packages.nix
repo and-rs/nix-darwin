@@ -1,13 +1,5 @@
 { pkgs, ... }: {
-  fonts = {
-    packages = with pkgs; [
-      nerd-fonts.jetbrains-mono
-      nerd-fonts.geist-mono
-      nerd-fonts.zed-mono
-      nerd-fonts.recursive-mono
-      nerd-fonts.symbols-only
-    ];
-  };
+  fonts = { packages = with pkgs; [ nerd-fonts.symbols-only ]; };
 
   environment.systemPackages = with pkgs; [
     imagemagick

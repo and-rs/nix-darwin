@@ -12,6 +12,7 @@
       configuration = { pkgs, ... }: {
         environment.darwinConfig = "$HOME/box/nixdarwin/flake.nix";
         programs.zsh.enable = true;
+        services.lorri.enable = true;
 
         nix.package = pkgs.nix;
         nix.settings.experimental-features = "nix-command flakes";

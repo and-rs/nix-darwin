@@ -2,7 +2,6 @@
   environment.systemPackages = with pkgs; [
     bun
     deno
-    yarn
     biome
     rustywind
     corepack_latest

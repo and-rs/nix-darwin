@@ -11,6 +11,10 @@
     neovim
     cowsay
     zellij
+
+    direnv # nix-shell
+    lorri
+
     unzip
     delta
     p7zip

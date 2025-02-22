@@ -12,7 +12,15 @@
       configuration = { pkgs, ... }: {
         environment.darwinConfig = "$HOME/box/nixdarwin/flake.nix";
         programs.zsh.enable = true;
-        services.lorri.enable = true;
+
+        # direnv support
+        programs.direnv = {
+          package = pkgs.direnv;
+          nix-direnv = {
+            enable = true;
+            package = pkgs.nix-direnv;
+          };
+        };
 
         nix.package = pkgs.nix;
         nix.settings.experimental-features = "nix-command flakes";

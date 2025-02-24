@@ -2,6 +2,7 @@
   fonts = { packages = with pkgs; [ nerd-fonts.symbols-only ]; };
 
   environment.systemPackages = with pkgs; [
+    ttfautohint
     imagemagick
     fastfetch
     neovide
@@ -11,6 +12,7 @@
     neovim
     cowsay
     zellij
+    direnv # nix-shell
     unzip
     delta
     p7zip

@@ -4,6 +4,7 @@
   environment.systemPackages = with pkgs; [
     ttfautohint
     imagemagick
+    aerospace
     fastfetch
     neovide
     ripgrep

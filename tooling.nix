@@ -42,10 +42,7 @@
     gcc
 
     zig-shell-completions
-    zig
-    zls
 
     postgres-lsp
-    sqls
   ];
 }

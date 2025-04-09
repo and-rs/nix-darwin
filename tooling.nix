@@ -44,5 +44,8 @@
     zig-shell-completions
 
     postgres-lsp
+
+    hurl
+    curl
   ];
 }

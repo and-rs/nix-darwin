@@ -6,7 +6,6 @@
     imagemagick
     aerospace
     fastfetch
-    neovide
     ripgrep
     cbonsai
     cmatrix
@@ -18,10 +17,10 @@
     delta
     p7zip
     tokei
+    kitty
     btop
     stow
     tmux
-    curl
     wget
     tldr
     git

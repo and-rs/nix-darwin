@@ -17,6 +17,7 @@
     p7zip
     tokei
     kitty
+    skhd
     btop
     stow
     tmux

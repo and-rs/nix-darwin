@@ -4,6 +4,7 @@
   environment.systemPackages = with pkgs; [
     ttfautohint
     imagemagick
+    evil-helix
     fastfetch
     ripgrep
     cbonsai

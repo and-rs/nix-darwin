@@ -2,28 +2,29 @@
   fonts = { packages = with pkgs; [ nerd-fonts.symbols-only ]; };
 
   environment.systemPackages = with pkgs; [
+    nushellPlugins.gstat
+    nushell
+
     ttfautohint
     imagemagick
-    evil-helix
     fastfetch
+    aerospace
     ripgrep
     cbonsai
     cmatrix
+    zoxide
     neovim
-    cowsay
-    zellij
     direnv # nix-shell
+    helix
     unzip
     delta
     p7zip
     tokei
     kitty
-    skhd
     btop
     stow
     tmux
     wget
-    tldr
     git
     eza
     bat

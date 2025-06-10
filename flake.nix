@@ -11,7 +11,6 @@
     let
       configuration = { pkgs, ... }: {
         environment.darwinConfig = "$HOME/box/nixdarwin/flake.nix";
-        programs.zsh.enable = true;
 
         # direnv support
         programs.direnv = {

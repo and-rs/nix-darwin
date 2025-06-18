@@ -21,9 +21,9 @@
     stylua
     lua
 
-    # basedpyright
+    basedpyright
     virtualenv
-    python314
+    python313
     poetry
     black
     ruff

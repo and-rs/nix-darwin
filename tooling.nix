@@ -44,6 +44,7 @@
     zig-shell-completions
 
     postgres-lsp
+    sleek
 
     hurl
     curl

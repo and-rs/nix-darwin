@@ -21,10 +21,12 @@
     p7zip
     tokei
     kitty
+    yazi
     btop
     stow
     tmux
     wget
+    nnn
     git
     eza
     bat

@@ -22,6 +22,7 @@
     lua
 
     python313Packages.tkinter
+    python313Packages.pandas
     python313Packages.pip
     basedpyright
     virtualenv

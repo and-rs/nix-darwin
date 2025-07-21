@@ -27,10 +27,12 @@
     basedpyright
     virtualenv
     python313
-    poetry
     black
     ruff
     uv
+
+    jinja-lsp
+    djlint
 
     go
     gopls

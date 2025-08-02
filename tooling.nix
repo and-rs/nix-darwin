@@ -41,10 +41,16 @@
     shellcheck
     beautysh
 
-    crystal
     nixfmt-classic
     nil
     gcc
+
+    crystal
+
+    rustc
+    cargo
+    rustup
+    rustfmt
 
     zig-shell-completions
 

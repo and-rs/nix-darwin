@@ -41,6 +41,7 @@
     shellcheck
     beautysh
 
+    crystal
     nixfmt-classic
     nil
     gcc

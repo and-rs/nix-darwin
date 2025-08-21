@@ -3,6 +3,7 @@
     bun
     deno
     biome
+    stylelint
     rustywind
     corepack_latest
     pnpm-shell-completion
@@ -27,12 +28,10 @@
     basedpyright
     virtualenv
     python313
+    djlint
     black
     ruff
     uv
-
-    jinja-lsp
-    djlint
 
     go
     gopls
@@ -45,14 +44,16 @@
     nil
     gcc
 
-    crystal
-
     rustc
     cargo
     rustup
     rustfmt
 
     zig-shell-completions
+
+    tinymist
+    typstyle
+    typst
 
     postgres-lsp
     sleek

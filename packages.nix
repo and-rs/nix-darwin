@@ -8,6 +8,7 @@
     ttfautohint
     imagemagick
     fastfetch
+    hyperfine
     aerospace
     ripgrep
     cbonsai

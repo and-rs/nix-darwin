@@ -27,12 +27,12 @@
     stow
     tmux
     wget
-    nnn
     git
     eza
     bat
     fzf
     zsh
+    qsv
     fd
     gh
     jq

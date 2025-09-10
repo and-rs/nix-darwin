@@ -10,6 +10,7 @@
     fastfetch
     hyperfine
     aerospace
+    csvlens
     ripgrep
     cbonsai
     cmatrix
@@ -22,6 +23,7 @@
     p7zip
     tokei
     kitty
+    skhd
     yazi
     btop
     stow

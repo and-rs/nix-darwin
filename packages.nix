@@ -5,12 +5,12 @@
     nushellPlugins.gstat
     nushell
 
-    ttfautohint
+    # ttfautohint
+    ffmpeg_6-full
     imagemagick
     fastfetch
     hyperfine
     aerospace
-    csvlens
     ripgrep
     cbonsai
     cmatrix
@@ -34,7 +34,6 @@
     bat
     fzf
     zsh
-    qsv
     fd
     gh
     jq

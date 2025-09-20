@@ -28,10 +28,13 @@
     basedpyright
     virtualenv
     python313
+    pyrefly
     djlint
     black
+    zuban
     ruff
     uv
+    ty
 
     go
     gopls
@@ -60,5 +63,10 @@
 
     hurl
     curl
+
+    qsv
+    miller
+    csvdiff
+    csvlens
   ];
 }

@@ -22,7 +22,10 @@
         };
 
         nix.package = pkgs.nix;
-        nix.settings.experimental-features = "nix-command flakes";
+        nix.settings = {
+          experimental-features = "nix-command flakes";
+          download-buffer-size = 524288000;
+        };
 
         system.configurationRevision = self.rev or self.dirtyRev or null;
         system.stateVersion = 4;
